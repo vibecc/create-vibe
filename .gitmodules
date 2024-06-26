@@ -1,0 +1,3 @@
+[submodule "template/vibe/lib"]
+	path = template/vibe/lib
+	url = https://github.com/vibecc/core.git

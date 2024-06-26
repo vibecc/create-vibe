@@ -1,0 +1,12 @@
+{
+    "name": "MyApp",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "make",
+      "clear": "make clean",
+      "start": "./App",
+      "sanetize": "make DEV_EXTRA=\"-Wall -Wextra -pedantic -Wpedantic -g -fsanitize=address\" ",
+      "dev": "make DEV_EXTRA=\"-Wall -Wextra -pedantic -Wpedantic -Wnon-virtual-dtor -Wnull-dereference -Wstrict-overflow=5 -Wmissing-include-dirs -Wstrict-aliasing=2\" && ./App",
+      "devc": "make clean && make DEV_EXTRA=\"-Wall -Wextra -pedantic -Wpedantic -Wnon-virtual-dtor -Wnull-dereference -Wstrict-overflow=5  -Wmissing-include-dirs -Wstrict-aliasing=2 \" && ./App"
+    }
+  }
