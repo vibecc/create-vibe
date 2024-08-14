@@ -1,6 +1,6 @@
 {
   "name": "create-vibe-static",
-  "version": "1.0.0",
+  "version": "1.5.0",
   "description": "vibe templates",
   "main": "script.js",
   "bin": {
